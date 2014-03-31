@@ -29,7 +29,7 @@
 			    <action android:name="android.intent.action.VIEW"/>
 			    <category android:name="android.intent.category.DEFAULT" />
 			    <category android:name="android.intent.category.BROWSABLE" />  
-			    <data android:scheme="shortcut.entrance"/>
+			    <data android:scheme="shortcut.entrance"/><!-- data元素内如果再增加android:host="sodino.com"/android:pathPreview=""也可以，只是得同时符合的条件增加了 -->
 			</intent-filter>
         </activity>
     </application>
